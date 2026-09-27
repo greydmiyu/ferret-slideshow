@@ -1,0 +1,20 @@
+{
+    "KPackageStructure": "Plasma/Wallpaper",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Grey"
+            }
+        ],
+        "Category": "",
+        "Description": "Slideshow from every configured folder, recursive, unique per screen",
+        "Icon": "folder-image",
+        "Id": "org.grey.simpleslideshow",
+        "License": "GPL-2.0-or-later",
+        "Name": "Grey's Simple Slideshow",
+        "Version": "1.1.0",
+        "Website": ""
+    },
+    "Keywords": "folder;wallpaper;slideshow",
+    "X-KDE-ParentApp": "org.kde.plasmashell"
+}
