@@ -1,10 +1,11 @@
 # Grey's Simple Slideshow
 
 Plasma 6 wallpaper plugin that scans **all** configured folders (recursively),
-picks an image, and shows a **different file on each screen**.
+picks an image, and shows a **different file on each screen**.  This behaves
+similarly to the default Slideshow plugin but skips the initial file scan
+during startup.  Only needed if you have dozens to hundreds of thousands of
+images to pick from (which I do).
 
-This replaces the old `swappapers.py` pattern of copying into `left.jpg` /
-`right.jpg`.
 
 ## Features
 
@@ -44,8 +45,6 @@ Uninstall:
 kpackagetool6 --type Plasma/Wallpaper --remove org.grey.simpleslideshow
 ```
 
-If you previously installed `org.grey.randomwallpaper`, remove that id as well
-so the old type does not stay in the list.
 
 ## Layout
 
